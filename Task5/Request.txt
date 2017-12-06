@@ -1,0 +1,5 @@
+curl -X POST "localhost:8082/" --data '{"url": "vk.com"}'
+curl -X POST "localhost:8082/"
+curl -X POST "localhost:8082/" --data '{"url": "http:dsaf"}'
+curl "localhost:8082/0" -v
+curl "localhost:8082/2" -v
